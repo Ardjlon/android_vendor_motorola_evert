@@ -734,4 +734,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     datastatusnotification \
     qcrilmsgtunnel \
+    QPerformance \
+    UxPerformance \
     WfdCommon
