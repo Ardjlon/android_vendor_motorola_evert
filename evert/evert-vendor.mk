@@ -18,6 +18,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/evert
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.rx.ext.config.0:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.0 \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.rx.ext.config.1:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.1 \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.rx.ext.config.2:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.2 \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.rx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.3 \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.tx.ext.config.0:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.0 \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.tx.ext.config.1:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.1 \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.tx.ext.config.2:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.2 \
+    vendor/motorola/evert/proprietary/vendor/firmware/opalum.tx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_imx386.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386.json \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_imx386_mono.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386_mono.json \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7sa.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7sa.json \
